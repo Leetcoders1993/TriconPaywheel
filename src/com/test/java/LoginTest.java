@@ -33,6 +33,8 @@ public class LoginTest extends TestBase{
 		
 		Assert.assertEquals(dashboardpage.getTitle(),"PayWheel");
 		
+		
+		
 		}
 	
 	@Test(priority=2)

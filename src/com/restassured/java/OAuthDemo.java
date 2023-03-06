@@ -1,8 +1,13 @@
 package com.restassured.java;
 
 import static io.restassured.RestAssured.given;
-
 import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Set;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -14,6 +19,7 @@ public class OAuthDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		
 		  RestAssured.baseURI = "https://reqres.in/";
 		  
@@ -40,9 +46,15 @@ public class OAuthDemo {
 		  
 		  ResponseSpecBuilder ress = (ResponseSpecBuilder) new ResponseSpecBuilder().
 		  expectContentType("ContentType/json"). expectStatusCode(200). build();
+		  
+		  
+		  
+		  
+		  
 		 
-		
-		
+
+
+	
 	}
 
 }
